@@ -1,3 +1,5 @@
+import java.util.*;
+
 class problem_1 {
     public int[] twoSum(int[] nums, int target) {
         int[] result= new int[2];
@@ -12,6 +14,10 @@ class problem_1 {
         return result;
     }
     public static void main(String[] args){
-        
+        problem_1 p = new problem_1();
+        int[] nums = {2, 7, 11, 15};
+        int target = 9;
+        int[] result = p.twoSum(nums, target);
+        System.out.println(Arrays.toString(result));
     }
 }
