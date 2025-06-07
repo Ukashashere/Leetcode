@@ -1,7 +1,7 @@
 class problem_2_ {
   public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-    ListNode dummy = new ListNode(0);
-    ListNode curr = dummy;  /*Har ListNode jo ek object waali cheez hai wo ek node hai*/
+    ListNode head = new ListNode(0);
+    ListNode curr = head;   /*Har ListNode jo ek object waali cheez hai wo ek node hai*/
     int carry = 0;          /*ListNode matlab linked list nhi*/
 
     while (l1 != null || l2 != null || carry > 0) {
@@ -18,7 +18,7 @@ class problem_2_ {
       curr = curr.next;
     }
 
-    return dummy.next;
+    return head.next;
   }
   public static class ListNode {
     int val;
