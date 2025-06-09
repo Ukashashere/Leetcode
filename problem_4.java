@@ -5,7 +5,7 @@ class problem_4 {
     if (n1 > n2)
       return findMedianSortedArrays(nums2, nums1);
 
-    int l = 0;
+    int l = 0;   /*I just want to solve it by anither approach, I didn't understand it very well */
     int r = n1;
 
     while (l <= r) {
