@@ -9,14 +9,14 @@ class problem_4 {
     int r = n1;
 
     while (l <= r) {
-      final int partition1 = (l + r) / 2;
-      final int partition2 = (n1 + n2 + 1) / 2 - partition1;
+      final int partition1 = (l + r) / 2;         /*half */
+      final int partition2 = (n1 + n2 + 1) / 2 - partition1;  /*half ka half */
       final int maxLeft1 = partition1 == 0 ? Integer.MIN_VALUE : nums1[partition1 - 1];  /*If else statement shortened form, if partition1 == 0 is true then Integer.MIN_VALUE is true value, if false then nums1[partition1 - 1] is value */
-      final int maxLeft2 = partition2 == 0 ? Integer.MIN_VALUE : nums2[partition2 - 1];
-      final int minRight1 = partition1 == n1 ? Integer.MAX_VALUE : nums1[partition1];
-      final int minRight2 = partition2 == n2 ? Integer.MAX_VALUE : nums2[partition2];
+      final int maxLeft2 = partition2 == 0 ? Integer.MIN_VALUE : nums2[partition2 - 1];  /*partition 2 ka left */
+      final int minRight1 = partition1 == n1 ? Integer.MAX_VALUE : nums1[partition1];    /*partition 1 ka right */
+      final int minRight2 = partition2 == n2 ? Integer.MAX_VALUE : nums2[partition2];  /*partition 2 ka right */
       if (maxLeft1 <= minRight2 && maxLeft2 <= minRight1)
-        return (n1 + n2) % 2 == 0
+        return (n1 + n2) % 2 == 0  /*if it is even */
             ? (Math.max(maxLeft1, maxLeft2) + Math.min(minRight1, minRight2)) * 0.5
             : Math.max(maxLeft1, maxLeft2);
       else if (maxLeft1 > minRight2)
