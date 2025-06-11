@@ -1,4 +1,4 @@
-class problem_5 {
+class problem_5 {  /*Ask Trishi */
     public String longestPalindrome(String s) {
         int n = s.length(); // Get the length of the string.
         boolean[][] dp = new boolean[n][n]; // Create a dynamic programming (DP) table. //Boolean is a data type that can have only two possible values: true or false.
