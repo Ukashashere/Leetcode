@@ -5,7 +5,9 @@ class Input_codechef2
 	public static void main (String[] args)
 	{
 		// update your code below this line
-		
+		Scanner scanner = new Scanner(System.in);
+		int num = scanner.nextInt();
+		System.out.println(num*num);
 	}
 }
 
@@ -41,7 +43,7 @@ Read the value from the user.
 Print it's square.
 Sample 1:
 Input
-Output
 4
+Output
 16
  */

@@ -5,9 +5,9 @@ class Input_codechef4
 	public static void main (String[] args)
 	{
 		// Update the blank in the code below
-		Scanner ____ = new Scanner(System.in);
+		Scanner read = new Scanner(System.in);
 		String x = read.nextLine();
-		System.out.println("Hello " + _);
+		System.out.println("Hello " + x);
 	}
 }
 

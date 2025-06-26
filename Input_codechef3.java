@@ -5,11 +5,11 @@ class Input_codechef3
 	public static void main (String[] args)
 	{
 		// Update the blank in the code below
-		Scanner read = new Scanner(_____);
-		int a = _____;
-		int b = _____;
-		int sum = _____;
-		int diff = _____;
+		Scanner read = new Scanner(System.in);
+		int a = read.nextInt();
+		int b = read.nextInt();
+		int sum = a+b;
+		int diff = a-b;
 		System.out.println("Sum is: " + sum);
 		System.out.println("Difference is: " + diff);
 	}
