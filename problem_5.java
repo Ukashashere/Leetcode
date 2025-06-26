@@ -46,6 +46,8 @@ class problem_5 {  /*Ask Trishi */
         System.out.println("Longest palindromic substring: " + result);
     }
 }
+/* Longest Palindromic Substring */
+
 /*
 Visualization:
 
