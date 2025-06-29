@@ -51,12 +51,23 @@ public class Input_array3
 }
 
 /*
-The try { } catch ; return; construct is used in exception handling to define a block of code that may throw an exception, handle it, and then return a value. Here's a breakdown of how this works:
+The try { } catch ; return; construct is used in exception handling to define a block of 
+code that may throw an exception, handle it, and then return a value. Here's a breakdown 
+of how this works:
 
-The try block contains the code that might throw an exception. If an exception occurs within the try block, the execution is transferred to the catch block.
-The catch block is used to handle the exception. It can be followed by a return statement to return a value from the method or function. For example, if an exception is caught, the catch block can return a specific value to indicate that an error occurred.
-The return statement is used to exit the method or function and return a value to the caller. If the try block does not throw an exception, the catch block is skipped, and the return statement in the try block is executed.
-In some programming languages, such as Java, the finally block can also be used to execute code regardless of whether an exception is thrown or caught. However, the finally block is not part of the try { } catch ; return; construct.
+The try block contains the code that might throw an exception. If an exception occurs 
+within the try block, the execution is transferred to the catch block.
+The catch block is used to handle the exception. It can be followed by a return statement 
+to return a value from the method or function. For example, if an exception is caught, the 
+catch block can return a specific value to indicate that an error occurred.
+The return statement is used to exit the method or function and return a value to the 
+caller. If the try block does not throw an exception, the catch block is skipped, and the 
+return statement in the try block is executed.
+In some programming languages, such as Java, the finally block can also be used to execute 
+code regardless of whether an exception is thrown or caught. However, the finally block is 
+not part of the try { } catch ; return; construct.
 
-It is important to note that the return statement in the catch block will override any return statement in the try block. This means that if both the try and catch blocks have a return statement, the value returned will be from the catch block.
- */
+It is important to note that the return statement in the catch block will override any 
+return statement in the try block. This means that if both the try and catch blocks have a 
+return statement, the value returned will be from the catch block.
+*/
