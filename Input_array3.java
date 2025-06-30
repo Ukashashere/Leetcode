@@ -18,10 +18,10 @@ public class Input_array3
         System.out.println("Enter the size of the array: ");
         int s = 0;
         try {                                             /*The try { } catch ; return; construct is used in exception handling to define a block of code that may throw an exception, handle it, and then return a value. */
-            s = Integer.parseInt(br.readLine());
+            s = Integer.parseInt(br.readLine()); // Convert input to integer. parseInt() method is used to convert a string to an integer.
         } catch (NumberFormatException e) {
             System.out.println("Invalid input for array size. Please enter a valid integer.");
-            return;
+            return; // If the input is not a valid integer, print an error message and exit the program.
         }
 
         // Initialize the array's
@@ -35,7 +35,7 @@ public class Input_array3
                 arr[i] = Integer.parseInt(br.readLine());
             } catch (NumberFormatException e) {
                 System.out.println("Invalid input for array element. Please enter a valid integer.");
-                return;
+                return;// ye catch ka return hai
             }
         }
 
