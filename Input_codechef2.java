@@ -26,6 +26,7 @@ class Input_codechef2
 
 
 
+
 /*
 You have already seen how to read a String. Let's see how to read the other datatype values:
 
