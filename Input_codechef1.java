@@ -35,6 +35,7 @@ class Input_codechef1
 
 
 
+
 /*https://www.codechef.com/learn/course/java/LTJPP11/problems/USRJ1V2 */
 /*Java uses the Scanner class found in java.util package to get user input. You have to import the package to use the Scanner class.
 
